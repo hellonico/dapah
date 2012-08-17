@@ -1,1 +1,10 @@
 Simple Daemon HTTP proxy for python2
+
+usage: 
+
+    proxy.py start|stop|restart
+
+will start on port 9999
+To change the port
+
+    export PROXY_PORT=8081 ; proxy.py start
